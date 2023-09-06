@@ -6,7 +6,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-   
+   div#form > p{
+    font-size: 1.2em;
+   }
+
     body{
         background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
@@ -29,10 +32,19 @@
 }
 
 @media screen and (min-width: 992px) {
+    div#form > p{
+        font-size: 1.2em;
+       }
+
+       div#form > h1{
+        font-size: 2em;
+        text-align: center;
+       }
+
     body{
         background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
-    
+
     section#login{
         width: 950px;
     }

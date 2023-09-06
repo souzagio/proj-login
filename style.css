@@ -43,6 +43,10 @@ section#login{
     left: 50%;
 }
 
+div#form > p{
+    font-size: 0.8em;
+   }
+   
 section#login > div#imagem{
     display: block;
     background: var(--cor2) url(imagens/build.jpg) no-repeat;
